@@ -10,8 +10,10 @@ class Letra:
 		dic5 = []
 
 		# path = 'C:\\Users\\SENA\\Desktop\\mon_tonton\\palavras.txt'
+		# path = 'C:\\Users\\SENA\\Desktop\\letreco_termooo\\palavras_termooo.txt'
+		path = 'C:\\Users\\SENA\\Desktop\\letreco_termooo\\palavras_letreco.txt'
 
-		with open('palavras.txt', 'r', encoding='utf-8') as file:
+		with open(path, 'r', encoding='utf-8') as file:
 			for line in file:
 				lineStrip = line.strip()
 				# print(lineStrip, len(lineStrip))
@@ -89,14 +91,14 @@ class Letra:
 
 
 
-		# pathP1 = 'C:\\Users\\SENA\\Desktop\\mon_tonton\\P1_50.txt'
-		# pathP2 = 'C:\\Users\\SENA\\Desktop\\mon_tonton\\P2_50.txt'
+		pathP1 = 'C:\\Users\\SENA\\Desktop\\letreco_termooo\\P1_50.txt'
+		pathP2 = 'C:\\Users\\SENA\\Desktop\\letreco_termooo\\P2_50.txt'
 
-		with open('P1_50.txt', 'w') as file:
+		with open(pathP1, 'w') as file:
 			for idx, name in enumerate(dic5OrderedP1WOrigin[:60]):
 				file.write(f'{idx+1} - {name}\n')
 
-		with open(P2_50.txt, 'w') as file:
+		with open(pathP2, 'w') as file:
 			for idx, name in enumerate(dic5OrderedP2Origin[:60]):
 				file.write(f'{idx+1} - {name}\n')
 
@@ -130,7 +132,7 @@ class Letra:
 		plt.ylabel('Número de ocorrências')
 		plt.title('Ocorrência')
 
-		plt.show()
+		# plt.show()
 
 
 		fig, ax = plt.subplots()
@@ -167,7 +169,7 @@ class Letra:
 		plt.title('Ocorrência por posição')
 
 
-		plt.show()
+		# plt.show()
 	
 
 
