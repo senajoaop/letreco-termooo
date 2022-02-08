@@ -11,7 +11,8 @@ class Letra:
 
 		# path = 'C:\\Users\\SENA\\Desktop\\mon_tonton\\palavras.txt'
 		# path = 'C:\\Users\\SENA\\Desktop\\letreco_termooo\\palavras_termooo.txt'
-		path = 'C:\\Users\\SENA\\Desktop\\letreco_termooo\\palavras_letreco.txt'
+		# path = 'C:\\Users\\SENA\\Desktop\\letreco_termooo\\palavras_letreco.txt'
+		path = 'C:\\Users\\SENA\\Desktop\\letreco_termooo\\palavras_wordle.txt'
 
 		with open(path, 'r', encoding='utf-8') as file:
 			for line in file:
