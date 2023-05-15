@@ -1,6 +1,6 @@
 # Letreco & Termo Solver
 
-This repository contains a Python app that attempts to solve the games Letreco and Termo by guessing the word based on the most common letters in the Portuguese language. The app uses simple statistical analysis to make educated guesses.
+This repository contains a Python app that attempts to solve the games [Letreco]([https://link-url-here.org](https://www.gabtoschi.com/letreco/) and [Termo](https://term.ooo/) by guessing the word based on the most common letters in the Portuguese language. The app uses simple statistical analysis to make educated guesses.
 
 ## Usage
 
