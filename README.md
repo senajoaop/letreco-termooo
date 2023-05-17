@@ -4,8 +4,8 @@ This repository contains a Python app that attempts to solve the games [Letreco]
 
 ## Usage
 
-1. Clone the repository: `git clone https://github.com/senajoaop/letreco_termooo.git`
-2. Navigate to the project directory: `cd letreco_termooo`
+1. Clone the repository: `git clone https://github.com/senajoaop/letreco-termooo.git`
+2. Navigate to the project directory: `cd letreco-termooo`
 3. Run the Python script: `python analise_palavras.py`
 4. Follow the prompts to input the available letters and their positions in the word.
 5. The script will analyze the given information and make a guess based on the most common letters in the Portuguese language.
